@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+section{
+    height: 500px;
+    background-color: black;
+    position: relative;
+    top:100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+@media(max-width:800px){
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+}
+i{
+    color: white;
+    font-size: 50px;
+    transition: transform 1s ease-in-out;
+}
+#one:hover{
+    transform: translateY(-600px);
+    color:yellow;
+}
+#two:hover{
+    transform: translateY(-600px);
+    color: blue;
+}
+#three:hover{
+    transform: translateY(-600px);
+    color: chocolate;
+}
+#four:hover{
+    transform: translateY(-600px);
+    color: crimson;
+}
+#five:hover{
+    transform: translateY(-600px);
+    color: green;
+}
+#six:hover{
+    transform: translateY(-600px);
+    color: indigo;
+}
